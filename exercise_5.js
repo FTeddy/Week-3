@@ -10,16 +10,14 @@ function perpangkatanDua(str) {
     exponent = Math.pow(2, number);
     if (str < exponent){
       return -1;
-    }
-    else {
+    } else {
       if (str < 0){
         return -1;
+      } else {
+        if (str == exponent){
+          return number;
+        }
       }
-    else {
-      if (str == exponent){
-        return number;
-      }
-    }
     }
   }
 }

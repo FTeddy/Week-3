@@ -8,10 +8,9 @@ function xo(str) {
 
   if (xLength == oLength){
     return true;
-  }
-  else {
-    return false;
-  }
+  } else {
+      return false;
+    }
 }
 
 // TEST CASES

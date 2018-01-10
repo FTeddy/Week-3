@@ -17,9 +17,6 @@ function angkaPalindrome(num) {
       return palinCheck;
     }
   }
-
-
-
 }
 
 // TEST CASES

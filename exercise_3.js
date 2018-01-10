@@ -10,10 +10,9 @@ function konversiMenit(menit) {
   // format the minutes into two digit format
   if (secondCount < 10){
     secondCountFormat= '0'+ String(secondCount);
-  }
-  else {
-    secondCountFormat= String(secondCount);
-  }
+  } else {
+      secondCountFormat= String(secondCount);
+    }
 
   // create the time output
   output = minuteCount + ':' + secondCountFormat;
